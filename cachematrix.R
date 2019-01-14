@@ -57,7 +57,7 @@ cacheSolve <- function(x, ...) {
         # R solve function returns the inverse of x matrix
         inv <- solve(data, ...)
         
-        # Caches this result in the object
+        # Caches this result
         x$setinverse(inv)
         
         # Returns this new result
